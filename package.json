@@ -1,0 +1,25 @@
+{
+  "name": "pretest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/jest": "^29.5.3",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "jest": "^29.6.1",
+    "mocha": "^10.2.0",
+    "ts-jest": "^29.1.1"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
